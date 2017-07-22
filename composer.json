@@ -1,0 +1,20 @@
+{
+    "name": "azphp/di-vs-sl",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gordon Forsythe",
+            "email": "baohx2000@gmail.com"
+        }
+    ],
+    "require": {
+        "rdlowrey/auryn": "^1.4",
+        "pimple/pimple": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AZPHP\\DiVsSl\\": "src/"
+        }
+    }
+}
