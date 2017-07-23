@@ -19,3 +19,8 @@ Showing differences between Dependency Injection and Service Locator (factory co
 ## Oh wait, I need to configure something?
 * Coding time!
 
+## What if my constructor requires an interface?
+* More coding
+
+## What if I want an instance to be shared and not instantiated every time?
+* So much more coding
