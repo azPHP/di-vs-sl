@@ -2,7 +2,17 @@
 
 Showing differences between Dependency Injection and Service Locator (factory container)
 
-* Show our three layered classes and class requiring configuration
+## What's the difference?
+
+### Service Locator
+* Only *defined* services (Just knows about what it's told to know about)
+* Have to configure everything manually
+
+### Dependency Injection
+* Inspects constructor of classes in order to inject new instances of required parameters
+* Uses Reflection to do this at the time the item is requested
+
+## Show our three layered classes and class requiring configuration
 
 ## Service Locator
 * Show initial Service Locator Container Bootstrap
